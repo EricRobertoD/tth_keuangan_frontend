@@ -51,6 +51,16 @@ export default function NavbarUserPage() {
             Penyerapan
           </Link>
         </NavbarItem>
+      <NavbarItem isActive>
+          <Link to = "/TotalTWDataUserPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
+            TWData
+          </Link>
+        </NavbarItem>
+      <NavbarItem isActive>
+          <Link to = "/TotalTahunDataUserPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
+            TahunData
+          </Link>
+        </NavbarItem>
         </NavbarContent>
       <NavbarContent justify="end">
         <Button color="danger" size="lg" onClick={logout}>

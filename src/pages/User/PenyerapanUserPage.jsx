@@ -129,7 +129,6 @@ export default function PenyerapanUserPage() {
                         </Table>
                     </div>
                     <div className="flex w-full justify-center my-4">
-                        {/* ... */}
                     </div>
                 </div>
             </Card>

@@ -8,12 +8,14 @@ import TransaksiDataPage from "./pages/Dashboard/TransaksiDataPage.jsx";
 import ReleasePage from "./pages/Dashboard/ReleasePage.jsx";
 import RealisasiPage from "./pages/Dashboard/RealisasiPage.jsx";
 import TotalDataPage from "./pages/Dashboard/TotalDataPage.jsx";
-import PenyerapanPage from "./pages/Dashboard/PenyerapanPage.jsx";
+import TotalTWDataPage from "./pages/Dashboard/TotalTWDataPage.jsx";
+import TotalTahunDataPage from "./pages/Dashboard/TotalTahunDataPage.jsx";
 import TransaksiDataUserPage from "./pages/User/TransaksiDataUserPage.jsx";
 import FinanceDataUserPage from "./pages/User/FinanceDataUserPage.jsx";
 import TotalDataUserPage from "./pages/User/TotalDataUserPage.jsx";
-import PenyerapanUserPage from "./pages/User/PenyerapanUserPage.jsx";
 import DashboardUserPage from "./pages/User/DashboardUserPage.jsx";
+import TotalTWDataUserPage from "./pages/User/TotalTWDataUserPage.jsx";
+import TotalTahunDataUserPage from "./pages/User/TotalTahunDataUserPage.jsx";
 import ManageUserPage from "./pages/Auth/ManageUserPage.jsx";
 
 const App = () => {
@@ -28,13 +30,15 @@ const App = () => {
           <Route path="/ReleasePage" element={<ReleasePage />}></Route>
           <Route path="/RealisasiPage" element={<RealisasiPage />}></Route>
           <Route path="/TotalDataPage" element={<TotalDataPage />}></Route>
-          <Route path="/PenyerapanPage" element={<PenyerapanPage />}></Route>
           <Route path="/TransaksiDataUserPage" element={<TransaksiDataUserPage />}></Route>
           <Route path="/FinanceDataUserPage" element={<FinanceDataUserPage />}></Route>
           <Route path="/TotalDataUserPage" element={<TotalDataUserPage />}></Route>
-          <Route path="/PenyerapanUserPage" element={<PenyerapanUserPage />}></Route>
           <Route path="/DashboardUserPage" element={<DashboardUserPage />}></Route>
           <Route path="/ManageUserPage" element={<ManageUserPage />}></Route>
+          <Route path="/TotalTWDataPage" element={<TotalTWDataPage />}></Route>
+          <Route path="/TotalTahunDataPage" element={<TotalTahunDataPage />}></Route>
+          <Route path="/TotalTahunDataUserPage" element={<TotalTahunDataUserPage />}></Route>
+          <Route path="/TotalTWDataUserPage" element={<TotalTWDataUserPage />}></Route>
 
 
 

@@ -49,10 +49,10 @@ export default function NavbarLoginPage() {
         <img src={assets.logoTTH} alt="Logo" style={logoStyle} />
             </Link>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden sm:flex gap-2" justify="center">
       <NavbarItem isActive>
           <Link to = "/FinanceDataPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
-            Finance Data
+            Finance
           </Link>
         </NavbarItem>
       <NavbarItem isActive>
@@ -76,8 +76,13 @@ export default function NavbarLoginPage() {
           </Link>
         </NavbarItem>
       <NavbarItem isActive>
-          <Link to = "/PenyerapanPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
-            Penyerapan
+          <Link to = "/TotalTWDataPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
+            TWData
+          </Link>
+        </NavbarItem>
+      <NavbarItem isActive>
+          <Link to = "/TotalTahunDataPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
+            TahunData
           </Link>
         </NavbarItem>
         </NavbarContent>
