@@ -47,11 +47,6 @@ export default function NavbarUserPage() {
           </Link>
         </NavbarItem>
       <NavbarItem isActive>
-          <Link to = "/PenyerapanUserPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
-            Penyerapan
-          </Link>
-        </NavbarItem>
-      <NavbarItem isActive>
           <Link to = "/TotalTWDataUserPage" style={{ cursor: "pointer", fontSize: "1.2rem" }}>
             TWData
           </Link>
